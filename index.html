@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cabin Quiz (Offline)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Roboto Mono', monospace;
       background: #f7f7f7;
       margin: 0;
       padding: 20px 40px 40px 40px;
@@ -20,19 +21,27 @@
     h2 {
       font-size: 2em;
       text-align: center;
-      margin-top: 0; /* remove space above title */
+      margin-top: 0;
+      font-family: sans-serif;
     }
     img {
-      max-width: 100%;
+      width: 80%;
       height: auto;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      margin-top: 10px; /* space above the gif */
+      display: block;
+      margin: 10px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     p {
       color: #444;
       margin: 1em 0;
       text-align: left;
+      font-size: 0.9rem; /* slightly smaller text */
+    }
+    .narrow {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
     }
     .centered {
       text-align: center;
@@ -49,10 +58,10 @@
 <body>
   <div class="container">
     <h2>Cabin Quiz is Offline ⛰️🌍🥺</h2>
-    <p>Cabin Quiz was a daily geolocation guessing game featuring beautiful cabins around the world. It was built with Bubble and after tragically realizing it wasn't going to become the next Wordle, I decided to stop paying $30 / month for it. But here's what it looked like!</p>
+    <p class="narrow">Cabin Quiz was a daily geo-guessing game featuring beautiful cabins from around the world. It was built with Bubble.io, and after tragically realizing it wasn't going to become the next Wordle, I decided to stop paying $30 / month for it. But here's a taste of what it looked like:</p>
     <img src="cabinquiz_demo_compressed.gif" alt="Cabin Quiz gameplay preview">
     <p class="centered">If you liked the game or want to get in touch, catch me at <a href="https://davidkaufman.xyz" target="_blank">davidkaufman.xyz</a></p>
-    <p class="centered">Thanks for playing! 💚</p>
+    <p class="centered">Thank you for playing! 💚</p>
   </div>
 </body>
 </html>
